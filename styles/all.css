@@ -1,0 +1,577 @@
+body {
+  margin: 0px;
+  }
+
+@font-face {
+  font-family: "Gudea";
+  src:url("../fonts/Gudea/Gudea-Regular.ttf");
+}
+
+a, p, input, li, label, h1, span{
+  font-family: "Gudea", sans-serif;
+}
+
+.img_index {
+  width: 100%;
+  align-items: center;
+  font-family: "Gudea", sans-serif;
+}
+
+#index_background{
+height: 500px;
+background-image: url('/images/annual_20183.jpg');
+background-size: cover;}
+
+.head_index{
+  margin-bottom: 3px;
+  font-family: "Gudea", sans-serif;
+}
+
+#shimtah_header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.index_dropdown {
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.index_dropdown button{
+  font-family: "Gudea", sans-serif;
+  font-size: 24px;
+  background-color: inherit;
+  border: none;
+}
+
+.index_dropdown button:hover {
+  color: grey;
+}
+
+.index_dropdownstuff {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.index_dropdownstuff a{
+  font-size: 20px;
+  padding: 7px 10px;
+  display: block;
+  background-color: black;
+  color: #D3D3D3;
+  text-decoration: none;
+}
+
+.index_dropdownstuff a:hover {
+  color: white;
+}
+
+.index_dropdown:hover .index_dropdownstuff {
+  display: block;
+}
+
+.body_index{
+  text-align: left;
+  width: auto;
+  font-family: "Gudea", sans-serif;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.body_media {
+  text-align: center;
+  width: auto;
+  font-family: "Gudea", sans-serif;
+}
+
+#media_background{
+height: 500px;
+background-image: url('/images/annual_20184.jpg');
+background-size: cover;}
+
+.media_heading {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Gudea", sans-serif;
+  margin-bottom: 60px;
+  }
+
+.img_photos {
+  width: 80%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.img_annual {
+  width: 80%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.performance_name{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+.performance_name:hover{
+  color: #811818;
+}
+
+.performance_name_last {
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.body_width {
+  width: 80%;
+  margin-left: 10%;
+}
+
+nav {
+  margin-left: 45%;
+  margin-top: -160px;
+  color: white;
+
+}
+
+span li {
+  font-family: "Gudea";
+  src:url("../fonts/Gudea/Gudea.ttf");
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: .2rem;
+  padding-right: 35px;
+  color: 	#D3D3D3;
+  background-color: transparent;
+}
+
+nav div {
+  display: inline-block;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: 	#D3D3D3;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: 	#D3D3D3;
+}
+
+span {
+  color: #D3D3D3;
+}
+
+.li {
+  margin-right: 22px;
+  font-size: 16px;
+  letter-spacing: .15rem
+}
+
+.dropdown:hover .dropdownstuff {
+  display:inline-block;
+}
+
+.dropbut {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+
+}
+
+.dropdownstuff {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownstuff a {
+    color:	#D3D3D3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    line-height: .5;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+.dropdownstuff a:hover {
+    color:	#F8F8FF !important;
+}
+
+.dropdownstuff .li {
+  padding: 0px;
+
+}
+.dropdown {
+  background-color: transparent;
+
+}
+.current {
+  color: #F8F8FF !important;
+}
+
+#logo {
+  margin-left: 5%;
+  margin-top: 20px;
+  max-width: 200px;
+  margin-bottom: 40px;
+
+}
+
+.white {
+  height: 200px;
+  background-image: linear-gradient(to bottom, #262627, transparent);
+}
+
+#contact1, #contact2 {
+  margin-top: 100px;
+}
+
+#contactpic1 {
+  height: 500px;
+  background-image: url('/images/hopenight_2018copy.jpg');
+  background-size: cover;
+  filter: blur(100%);
+}
+
+#contactpic2 {
+  height: 500px;
+  background-image: url('/images/performance_imagecopy.jpg');
+  background-size: cover;
+}
+
+.contacttext {
+  margin-left: 32%;
+  padding-top: 25px;
+  max-width: 500px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: .15rem;
+  font-size: 25px;
+}
+
+form ul {
+  list-style-type: none;
+  margin-left: 32%;
+  margin-top: -50px;
+  line-height: 3;
+}
+
+label {
+  display:inline;
+  margin-right:4px;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  color: 	#696969;
+}
+
+.message {
+  float: left;
+  padding-top: 10px;
+  margin-top: -23px;
+}
+
+form input {
+  width: 304px;
+}
+
+textarea {
+  border-color:	#DCDCDC;
+  resize: none;
+  margin-top: 10px;
+}
+
+#inputdate {
+  width: auto;
+}
+
+form button {
+  font-size: 14px;
+  letter-spacing: .15rem;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.msg {
+  font-size: 15px;
+  letter-spacing: .12rem;
+  font-style: italic;
+  padding-bottom: 30px;
+  color: 	#696969;
+}
+
+.footer {
+  display: inline-block;
+  text-align:center;
+  margin-left: -60px;
+}
+
+.parent {
+  text-align:center;
+  bottom: 0px;
+
+}
+
+.footer ul {
+  list-style-type: none;
+  display:inline;
+}
+
+.footer li {
+  display:inline;
+}
+
+.foot {
+  max-width: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* members css */
+
+.headshot {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 30% 30% 30% 30%;
+  margin-top: 100px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.text {
+  font-size: 16px;
+}
+
+.info {
+  width: 90%;
+}
+
+.member1{
+  grid-column: 1;
+}
+
+.member2{
+  grid-column: 2;
+}
+
+.member3{
+  grid-column: 3;
+}
+
+.member4 {
+  grid-column: 4;
+}
+
+.member{
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.name {
+   position: absolute;
+   width: 200px;
+   font-size: 15px;
+   margin-top:10px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.details {
+  margin-top: 30px;
+  text-align: center;
+  width: 200px;
+}
+
+#performance_background{
+height: 500px;
+background-image: url('/images/cover_performances.jpg');
+background-size: cover;
+}
+
+#member_background{
+height: 500px;
+background-image: url('/images/cover_members.jpg');
+background-size: cover;
+}
+
+/* performance css */
+
+.heading {
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Gudea", sans-serif;
+}
+
+.page_info {
+  text-align: center;
+}
+
+.container {
+  margin-left: 130px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 400px;
+  height: 360px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+#upcoming_performance {
+  font-size: 18px;
+  font-family: "Gudea", sans-serif;
+}
+
+#past_performance {
+  margin-top: 100px;
+}
+
+.performance_list {
+  margin-top: 40px;
+  margin-left: 250px;
+  float: left;
+}
+
+.performance_list li {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+/** Inventory */
+#inventory h1, #inventory h2 {
+  font-family: "Gudea", sans-serif;
+}
+
+#inventory a {
+  color: black;
+}
+
+#inventory a:hover{
+  color: #811818;
+}
+
+#inventory input {
+  height: 20px;
+  margin-top: 7px;
+}
+
+.instrument_query {
+  margin-top: 50px;
+}
+
+#search_form {
+  margin: 30px 0;
+}
+
+#search {
+  width: 60px;
+}
+
+.centered {
+  text-align: center;
+}
+
+table {
+  margin: 20px 10%;
+  font-family: "Gudea", sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  float: left;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 7px 10px;
+}
+
+#update {
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin-top: 0;
+}
+
+#return a {
+  text-decoration: underline;
+  text-decoration-color: #811818;
+}
+
+.submit {
+  margin-bottom: 20px;
+}
+
+.block {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.stop {
+  clear: both;
+}
+
+/** Login */
+#login {
+  width: 50%;
+  margin: 50px 25% 10% 25%;
+  padding: 20px 0;
+  background-color: rgba(129,24,24,0.05);
+  box-shadow: 3px 3px rgba(0,0,0,0.1);
+}
+
+#login h1 {
+  margin-bottom: 50px;
+}
+
+#login input {
+  margin-bottom: 7px;
+  height: 20px;
+}
+
+/** Logout */
+
+#logout {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#logout p {
+  font-weight: bold;
+  color: black;
+}
+
+#logout a {
+  color: black;
+}
+
+#logout a:hover {
+  color: #811818;
+}
+
+#logout_photo {
+  width: 80%;
+  margin-left: 10%;
+}
